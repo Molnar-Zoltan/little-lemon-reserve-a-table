@@ -1,0 +1,24 @@
+.nav {
+    & ul {
+        display: flex;
+        gap: 1rem;
+
+        & li {
+            
+            & a {
+                font-size: var(--font-size-lg);
+                font-weight: var(--font-weight-bold);
+                color: var(--color-primary-one);
+                padding: 1rem 2rem;
+
+
+                &:hover, &:active {
+                    color: var(--color-highlight-one);
+                    background-color: var(--color-primary-one);
+                    border-radius: 2.5rem;
+                }
+            }
+        }
+    }
+
+}
