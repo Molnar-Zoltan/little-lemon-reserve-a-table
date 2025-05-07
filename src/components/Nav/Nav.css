@@ -13,7 +13,7 @@
 
 
                 &:hover, &:active {
-                    color: var(--color-highlight-one);
+                    color: var(--color-background);
                     background-color: var(--color-primary-one);
                     border-radius: 2.5rem;
                 }

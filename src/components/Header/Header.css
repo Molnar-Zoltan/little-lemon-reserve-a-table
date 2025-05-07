@@ -1,6 +1,15 @@
 .header-container {
     display: flex;
-    justify-content: space-between;
+
+    @media (min-width: 1025px) {
+        justify-content: center;
+        gap: 2.5rem;
+    }
+
+    @media (max-width: 1024px) {
+        justify-content: space-between;
+    }
+  
     align-items: center;
     padding: 1.5rem 3rem;
 }
@@ -29,14 +38,6 @@
     
     color: var(--color-primary-one);
     font-size: var(--font-size-4xl);
-
-    & .hamburger-button {
-        cursor: pointer;
- 
-        &:hover, &:active {
-            color: var(--color-primary-two); 
-        }
-    }
 
 }
 
