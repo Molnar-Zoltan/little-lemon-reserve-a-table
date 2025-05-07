@@ -11,13 +11,13 @@
         
         & li {
             
-            & a {
+            & span {
                 font-size: var(--font-size-2xl);
                 font-weight: var(--font-weight-bold);
                 color: var(--color-primary-one);
                 padding: 1rem 2rem;
-
-
+    
+    
                 &:hover, &:active {
                     color: var(--color-highlight-one);
                     background-color: var(--color-primary-one);

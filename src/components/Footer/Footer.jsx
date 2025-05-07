@@ -1,4 +1,5 @@
 import React from 'react';
+import NavItems from '../NavItems';
 import './Footer.css'; 
 import LogoFooter from '../../assets/icons/Logo_Footer.svg';
 import { FaInstagram, FaFacebook } from "react-icons/fa";
@@ -20,14 +21,7 @@ const Footer = () => {
                     
                     <div className='doormat-navigation'>
                         <h4 className='footer-title'>Little Lemon Restaurant</h4>
-                        <ul className='doormat-navigation-list'>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Menu</a></li>
-                            <li><a href="#reservations">Reservations</a></li>
-                            <li><a href="#">Order Online</a></li>
-                            <li><a href="#">Login</a></li>
-                        </ul>
+                        <NavItems />
                     </div>
                 </div>
                 <div className='footer-contact'>

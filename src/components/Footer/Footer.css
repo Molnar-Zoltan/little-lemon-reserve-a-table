@@ -33,7 +33,7 @@
             }
 
             & .doormat-navigation {
-                & .doormat-navigation-list {
+                & ul {
                     display: flex;
                     flex-direction: column;
                     gap: 0.5rem;
@@ -69,7 +69,6 @@
 
                 & li {  
                     & a {
-        
                         font-size: var(--font-size-2xl);
                     }
                 }
