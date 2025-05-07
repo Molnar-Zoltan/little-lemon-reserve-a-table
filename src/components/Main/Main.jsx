@@ -1,9 +1,14 @@
 import './Main.css';
 
-const Main = () => {
+const Main = ({headerHeight}) => {
+
+
+
     return (
-        <main className="main">
-            
+        <main className="main" style={{ paddingTop: `${headerHeight}px` }}>
+
+            <p>Test</p>
+
         </main>
     );
 }

@@ -6,10 +6,12 @@ import './assets/fonts/fonts.css';
 
 function App() {
 
+  const [headerHeight, setHeaderHeight] = useState(0);
+
   return (
     <>
-      <Header />
-      <Main />
+      <Header setHeaderHeight={setHeaderHeight} />
+      <Main headerHeight={headerHeight}/>
       <Footer /> 
     </>
   )

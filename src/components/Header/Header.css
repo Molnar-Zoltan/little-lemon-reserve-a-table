@@ -16,6 +16,10 @@
 
 .header {
     background-color: var(--color-background);
+    height: clamp(6rem, 10vh, 7.5rem);
+    position: fixed;
+    z-index: 999;
+    width: 100%;
 }
 
 .hidden {

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import Logo from '../../assets/icons/Logo.svg';
 import Basket from '../../assets/icons/Basket.svg';
 import Nav from '../Nav/Nav';
@@ -6,15 +6,23 @@ import NavMobile from '../NavMobile/NavMobile';
 import HamburgerButton from '../HamburgerButton/HamburgerButton';
 import './Header.css';
 
-const Header = () => {
+const Header = ({setHeaderHeight}) => {
 
+    const headerRef = useRef(null);
     const [isMenuOpen, setIsMenuOpen] = useState(false); // State to manage the mobile menu open/close
+
+
+    useEffect(() => {
+        if (headerRef.current) {
+            setHeaderHeight(headerRef.current.offsetHeight);
+        }
+    }, [setHeaderHeight]);
 
 
 
     return (
         <>
-            <header className='header'>
+            <header ref={headerRef} className='header'>
                 <div className='header-container'>
                     <div className='hidden mobile hamburger-icon'>
                         <HamburgerButton isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
@@ -30,7 +38,6 @@ const Header = () => {
                     <NavMobile />
                 </div>
             </header>
-
         </>
     );
 }

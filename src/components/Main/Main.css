@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    min-height: calc(100vh - 6.5rem);
+    justify-content: flex-start;
     background-color: var(--color-secondary-three);
+    min-height: 100vh;
 }
