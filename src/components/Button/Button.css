@@ -1,0 +1,13 @@
+
+.button {
+    background-color: var(--color-primary-two);
+    color: var(--color-highlight-two);
+    border: none;
+ 
+    font-weight: var(--font-weight-bold);
+    border-radius: 1.5rem;
+
+    &:hover, &:active {
+        background-color: var(--color-primary-two-shade);
+    }
+}

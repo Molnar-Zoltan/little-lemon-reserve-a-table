@@ -8,6 +8,13 @@ import NotImplementedPage from '../../pages/NotImplementedPage/NotImplementedPag
 const Main = ({headerHeight}) => {
 
 
+    const notImplementedPages = [
+        "/about",
+        "/menu",
+        "/order-online",
+        "/login"
+    ];
+
 
     return (
         <main className="main" style={{ paddingTop: `${headerHeight}px` }}>
@@ -15,7 +22,11 @@ const Main = ({headerHeight}) => {
         <Routes>
             <Route path="/" element={<Homepage headerHeight={headerHeight} />} />
             <Route path="/reservations" element={<BookingPage  headerHeight={headerHeight} />} />
-            <Route path="/not-implemented" element={<NotImplementedPage headerHeight={headerHeight}/>} />
+            {
+                notImplementedPages.map((path) => (
+                    <Route key={path} path={path} element={<NotImplementedPage headerHeight={headerHeight}/>} /> 
+                ))
+            }
             <Route path="*" element={<NotFoundPage headerHeight={headerHeight} />} /> {/* For unmatched routes */}
         </Routes>
         </main>

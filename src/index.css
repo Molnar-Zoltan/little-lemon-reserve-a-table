@@ -35,6 +35,7 @@
 
     --color-primary-one: #495E57;
     --color-primary-two: #F4CE14;
+    --color-primary-two-shade: #cbab0a;
     
     --color-secondary-one: #EE9972;
     --color-secondary-two: #FBDABB;
@@ -79,6 +80,30 @@ p {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'MarkaziText', sans-serif;
   font-weight: var(--font-weight-medium);
+}
+
+h1 {
+  font-size: var(--font-size-6xl);
+}
+
+h2 {
+  font-size: var(--font-size-5xl);
+}
+
+h3 {
+  font-size: var(--font-size-4xl);
+}
+
+h4 {
+  font-size: var(--font-size-3xl);
+}
+
+h5 {
+  font-size: var(--font-size-2xl);
+}
+
+h6 {
+  font-size: var(--font-size-xl);
 }
 
 /* Prevent accidental selections */

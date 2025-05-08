@@ -6,4 +6,33 @@
     justify-content: flex-start;
     background-color: var(--color-secondary-three);
     min-height: 100vh;
+    width: 100%;
+}
+
+.center {
+
+    background-color: aliceblue;
+
+    @media (max-width: 899px) {
+        margin: 0 1%;
+    }
+
+
+    @media (max-width: 1024px) {
+        margin: 0 5%;
+    }
+
+
+    @media (max-width: 1500px) {
+        margin: 0 20%;
+    }
+
+    @media (max-width: 2000px) {
+        margin: 0 20%;
+    }
+
+    @media (min-width: 2001px) {
+        margin: 0 30%;
+    }
+
 }

@@ -1,9 +1,16 @@
 import './Homepage.css';
+import CallToAction from '../../components/CallToAction/CallToAction';
+import Specials from '../../components/Specials/Specials';
+import CustomerSay from '../../components/CustomersSay/CustomersSay';
+import Chicago from '../../components/Chicago/Chicago';
 
 const Homepage = ({headerHeight}) => {
     return (
         <section className="homepage" style={{ minHeight: `calc(100vh - ${headerHeight}px)` }}>
-            <h1>Homepage</h1>
+            <CallToAction />
+            <Specials />
+            <CustomerSay />
+            <Chicago />
         </section>
     );
 }

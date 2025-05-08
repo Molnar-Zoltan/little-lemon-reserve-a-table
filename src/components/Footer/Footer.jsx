@@ -20,18 +20,18 @@ const Footer = () => {
                     </div>
                     
                     <div className='doormat-navigation'>
-                        <h4 className='footer-title'>Little Lemon Restaurant</h4>
+                        <h5 className='footer-title'>Little Lemon Restaurant</h5>
                         <NavItems />
                     </div>
                 </div>
                 <div className='footer-contact'>
-                    <h4 className='footer-title'>Contact</h4>
+                    <h5 className='footer-title'>Contact</h5>
                     <p className='contact-information'><MdOutlineLocationOn />123 Main St, Chicago, IL 60647</p>
                     <p className='contact-information'><MdOutlineEmail />info@littlelemonchicago.com</p>
                     <p className='contact-information'><MdPhoneAndroid />(312) 123-4567</p>
                 </div>
                 <div className='footer-social-media'>
-                    <h4 className='footer-title'>Social Media</h4>
+                    <h5 className='footer-title'>Social Media</h5>
                     <ul className='social-media-list'>
                         <li><a href="#"><FaFacebook /></a></li>
                         <li><a href="#"><FaInstagram /> </a></li>
