@@ -13,7 +13,7 @@ const SpecialsCard = ({ special }) => {
             <div className='card-information'> 
                 <div className='card-header'>
                     <h4 className='special-name'>{special.name}</h4>
-                    <h4 className='special-price'>$ {special.price}</h4>
+                    <h4 className='special-price'>$ {special.price.toFixed(2)}</h4>
                 </div>
                 <p className='special-description'>{special.description}</p>
             </div>
