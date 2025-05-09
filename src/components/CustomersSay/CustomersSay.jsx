@@ -43,7 +43,7 @@ const CustomersSay = () => {
 
     return (
         <section className="customers-say">
-            <h2 className='customer-say-title'>What Our Customers Say</h2>
+            <h2 className='customers-say-title'>What Our Customers Say</h2>
             <div className="customer-testimonials">
                 {
                     customers.map(customer =>

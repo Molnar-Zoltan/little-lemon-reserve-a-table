@@ -13,21 +13,31 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: var(--content-width);
+        
+        width: 100%;
+        max-width: var(--content-width);
 
-     
 
         @media (max-width: 1024px) {
             flex-direction: column;
             align-items: center;
             margin-bottom: 1rem;
         }
+
+
+        & .specials-title {
+            @media (max-width: 450px) {
+                font-size: var(--font-size-5xl);
+            }
+        }
+
     }
 
     & .specials-content {
         display: flex;
         justify-content: space-between;
-        width: var(--content-width);
+        width: 100%;
+        max-width: var(--content-width);
 
     
 

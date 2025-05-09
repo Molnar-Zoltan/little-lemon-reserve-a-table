@@ -34,7 +34,7 @@ const Specials = () => {
     return (
         <section className="specials">
             <div className='specials-header'>
-                <h1>This weeks specials!</h1>
+                <h1 className='specials-title'>This weeks specials!</h1>
                 <OnlineMenuButton 
                     text='Online Menu' 
                     route={'/menu'} 

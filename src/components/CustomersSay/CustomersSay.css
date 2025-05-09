@@ -10,6 +10,12 @@
     margin-top: 3rem;
     gap: 2rem;
 
+    & .customers-say-title {
+        @media (max-width: 450px) {
+            font-size: var(--font-size-4xl);
+        }
+    }
+
     & .customer-testimonials {
         display: flex;
         flex-wrap: wrap;

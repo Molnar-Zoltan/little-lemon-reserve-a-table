@@ -1,0 +1,98 @@
+
+
+.chicago {
+
+    display: flex;
+    justify-content: center;
+    margin: 6rem 0;
+
+    width: 100%;
+
+
+    & .chicago-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        background-color: var(--color-secondary-two);
+        padding: 3rem 5rem 4rem 5rem;
+        margin: 0 5rem;
+
+        @media (max-width: 899px) {
+            flex-direction: column;
+            gap: 10rem;
+       
+        }
+    
+
+        & .chicago-text {
+            width: 100%;
+            max-width: 40rem; /* or whatever limit you want */
+       
+
+            & .chicago-subtitle {
+                margin-top: -1rem;
+                margin-bottom: 2rem;
+            }
+
+            & .chicago-description {
+                color: var(--color-highlight-two);
+            }
+
+        }
+
+
+
+
+        & .chicago-image-container {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            @media (max-width: 899px) {
+                padding-bottom: 7rem;
+           
+            }
+            
+            & .crop-container-a,
+            & .crop-container-b {
+
+                height: 25rem;
+                width: 20rem;
+
+                @media (max-width: 899px) {
+                    height: 20rem;
+                    width: 15rem;
+               
+                }
+
+
+                & .chicago-image-a, 
+                & .chicago-image-b {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: right;
+                }
+    
+            }
+
+            & .crop-container-a {
+                margin-bottom: -7rem;
+
+            }
+
+            & .crop-container-b {
+                margin-top: -7rem;
+                margin-left: -7rem;
+            }
+            
+        }
+
+    }
+
+
+
+
+}
