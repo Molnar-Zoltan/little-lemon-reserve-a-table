@@ -1,7 +1,7 @@
 import React from 'react';
 import NavItems from '../NavItems';
 import './Footer.css'; 
-import LogoFooter from '../../assets/icons/Logo_Footer.svg';
+import LogoFooter from '../../assets/icons/logo-footer.svg';
 import { FaInstagram, FaFacebook } from "react-icons/fa";
 import { FaSquareXTwitter  } from "react-icons/fa6";
 import { MdOutlineLocationOn } from "react-icons/md";

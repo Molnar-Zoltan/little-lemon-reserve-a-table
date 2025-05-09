@@ -1,0 +1,86 @@
+
+
+.specials-card {
+
+    --card-width: 28rem;
+    --image-height: 25rem;
+    --content-paddingX: 1.5rem;
+
+    width: var(--card-width);
+    display: flex;
+    flex-direction: column;
+
+    background-color: #f8f8f8;
+
+    margin-top: 1rem;
+
+    border-radius: 2rem 2rem 0 0;
+    overflow: hidden;
+
+    padding-bottom: 2.5rem;
+    background-color: var(--color-highlight-one);
+
+    & .card-image-container {
+
+        height: var(--image-height);
+
+        & .card-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    & .card-content {
+
+        display: flex;
+        flex: 1; /* Fill the remaining space */
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0 var(--content-paddingX);
+        margin-top: 1.5rem;
+
+   
+
+    
+
+        & .card-information {
+
+            & .card-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+    
+                font-weight: bold;
+    
+    
+                & .special-price {
+    
+                    color: var(--color-secondary-one);
+                }
+    
+                
+            } 
+    
+            & .special-description {
+    
+                color: var(--color-highlight-two);
+            }
+        }
+
+        
+        & .card-order {
+            margin-top: 2rem;
+            display: flex;
+            gap: 1rem;
+
+            .delivery-icon{
+                font-size: 2.5rem;
+            }
+        }
+
+    }
+
+
+
+}

@@ -1,5 +1,5 @@
 import './CallToAction.css';
-import RestaurantFood from '../../assets/images/restaurantfood.jpg';
+import RestaurantFood from '../../assets/images/restaurant-food.jpg';
 import CTAReserveTableButton from '../Button/Button';
 
 

@@ -4,7 +4,7 @@ import './NotImplementedPage.css';
 const NotImplementedPage = ({headerHeight}) => {
     return (
         <section className="not-implemented-page" style={{ minHeight: `calc(100vh - ${headerHeight}px)` }}>
-            <h1>This page is not implemented.</h1>
+            <h2>This page is not implemented.</h2>
             <div className='page-information'>
                 <p>This project is about table reservations.</p>
                 <p>Available pages: <Link to="/">Home</Link>, <Link to="/reservations">Reservations</Link>.</p>

@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
-import Logo from '../../assets/icons/Logo.svg';
-import Basket from '../../assets/icons/Basket.svg';
+import Logo from '../../assets/icons/logo.svg';
+import Basket from '../../assets/icons/basket.svg';
 import Nav from '../Nav/Nav';
 import NavMobile from '../NavMobile/NavMobile';
 import HamburgerButton from '../HamburgerButton/HamburgerButton';

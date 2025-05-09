@@ -9,6 +9,7 @@
     & .page-information {
         display: flex;
         flex-direction: column;
+        font-size: var(--font-size-xl);
 
     }
 }
