@@ -1,5 +1,5 @@
 import { Field, ErrorMessage } from 'formik';
-import reservationTimeData from './reservationTimeData.js';
+import reservationTimeData from './reservationTimeData';
 
 
 const ReservationTime = ({label = "Text:", fieldName = "time", errorMessageComponent = "p"}) => {
