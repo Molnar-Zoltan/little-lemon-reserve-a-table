@@ -16,8 +16,6 @@ const CallToAction = () => {
                     <CTAReserveTableButton 
                         text='Reserve a Table' 
                         route={'/reservations'} 
-                        paddingY={1.5} paddingX={2.5} 
-                        fontSize='var(--font-size-xl)' 
                     />
                 </div>
                 <div className='cta-image-container'>

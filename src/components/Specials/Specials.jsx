@@ -38,8 +38,6 @@ const Specials = () => {
                 <OnlineMenuButton 
                     text='Online Menu' 
                     route={'/menu'} 
-                    paddingY={1.5} paddingX={2.5} 
-                    fontSize='var(--font-size-xl)'
                 />  
             </div>
             <div className='specials-content'>

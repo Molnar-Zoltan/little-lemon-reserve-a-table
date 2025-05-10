@@ -2,14 +2,23 @@ import './Button.css';
 import { Link } from 'react-router-dom';
 
 
-const CTAReserveTableButton = ({ text, route, paddingX, paddingY, fontSize}) => {
+const Button = ({ text = "Button", route = "", paddingX = 2.5, paddingY = 1.5, fontSize = "var(--font-size-xl)", type="button"}) => {
     return (
-        <Link to={route}>
-            <button className="button" style={{ padding: `${paddingY}rem ${paddingX}rem`, fontSize: fontSize }}>
-                {text}
-            </button>
-        </Link>
+        <>
+            {
+                route != "" ? 
+                <Link to={route}>
+                    <button type={type} className="button" style={{ padding: `${paddingY}rem ${paddingX}rem`, fontSize: fontSize }}>
+                        {text}
+                    </button>
+                </Link>
+                :
+                <button type={type} className="button" style={{ padding: `${paddingY}rem ${paddingX}rem`, fontSize: fontSize }}>
+                    {text}
+                </button>
+            }
+        </>
     );
 }
 
-export default CTAReserveTableButton;
+export default Button;
