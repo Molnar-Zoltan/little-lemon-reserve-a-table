@@ -3,7 +3,7 @@ import OnlineMenuButton from '../Button/Button';
 import GreekSalad from '../../assets/images/greek-salad.jpg';
 import Bruschetta from '../../assets/images/bruschetta.svg';
 import LemonDessert from '../../assets/images/lemon-dessert.jpg';
-import SpecialsCard from '../SpecialsCard/SpecialsCard';
+import SpecialsCard from './SpecialsCard';
 
 const Specials = () => {
 

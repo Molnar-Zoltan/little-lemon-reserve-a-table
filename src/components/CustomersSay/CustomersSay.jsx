@@ -1,5 +1,5 @@
 import './CustomersSay.css';
-import CustomerCard from '../CustomerCard/CustomerCard';
+import CustomerCard from './CustomerCard';
 import AvatarJackThompson from '../../assets/images/avatar-jack-thompson.png'
 import AvatarEmilyCarter from '../../assets/images/avatar-emily-carter.png'
 import AvatarOliviaBenett from '../../assets/images/avatar-olivia-benett.png'

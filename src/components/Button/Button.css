@@ -6,6 +6,7 @@
  
     font-weight: var(--font-weight-bold);
     border-radius: 1.5rem;
+    width: fit-content;
 
     &:hover, &:active {
         background-color: var(--color-primary-two-shade);
