@@ -3,8 +3,10 @@
         display: flex;
         gap: 1rem;
 
-        & li {      
-            & span {
+        & li { 
+            
+            & .nav-item {
+
                 font-size: var(--font-size-lg);
                 font-weight: var(--font-weight-bold);
                 color: var(--color-primary-one);
@@ -16,7 +18,12 @@
                     background-color: var(--color-primary-one);
                     border-radius: 2.5rem;
                 }
+
+                &:focus {
+                    outline: none;
+                }
             }
+            
         }
     }
 
