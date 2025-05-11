@@ -2,12 +2,16 @@ import React from "react";
 import './BookingPage.css'; 
 import ReservationForm from '../../components/ReservationForm/ReservationForm';
 import Restaurant from '../../assets/images/restaurant.jpg'
+import useScrollToTop from "../../assets/hooks/useScrollToTop";
 
 
 
 
 
 const BookingPage = ({headerHeight}) => {
+
+    useScrollToTop();
+
     return (
         <section className="booking-page" style={{ minHeight: `calc(100vh - ${headerHeight}px)` }}>
             <div className="booking-page-header">

@@ -1,6 +1,9 @@
+import useScrollToTop from '../../assets/hooks/useScrollToTop';
 import './NotFoundPage.css'; 
 
 const NotFoundPage = ({headerHeight}) => {
+
+    useScrollToTop();
     
     return (
         <section className='not-found-page' style={{ minHeight: `calc(100vh - ${headerHeight}px)`}}>

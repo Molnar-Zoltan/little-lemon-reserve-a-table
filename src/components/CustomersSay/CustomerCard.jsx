@@ -1,7 +1,7 @@
 import './CustomerCard.css';
 import { GoStar } from "react-icons/go";
 import { GoStarFill } from "react-icons/go";
-import { generateStarArray } from '../../utils/generateStarArray';
+import { generateStarArray } from './generateStarArray';
 
 
 const CustomerCard = ({ name, rating, text, image }) => {
