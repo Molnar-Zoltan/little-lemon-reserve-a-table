@@ -6,8 +6,8 @@ const HamburgerButton = ({isMenuOpen, setIsMenuOpen}) => {
 
     return (
         <a onClick={() => setIsMenuOpen(!isMenuOpen)}>
-            <RxHamburgerMenu className={`${isMenuOpen ? 'hidden' : 'hamburger-button'}`} />
-            <GrClose className={`${isMenuOpen ? 'hamburger-button' : 'hidden'}`} />
+            <RxHamburgerMenu aria-label="Open menu" className={`${isMenuOpen ? 'hidden' : 'hamburger-button'}`} />
+            <GrClose aria-label="Close menu" className={`${isMenuOpen ? 'hamburger-button' : 'hidden'}`} />
         </a>
     );
 }

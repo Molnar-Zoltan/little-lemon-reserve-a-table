@@ -19,7 +19,7 @@ const CallToAction = () => {
                     />
                 </div>
                 <div className='cta-image-container'>
-                    <img src={RestaurantFood} alt="Restaurant Food" className='cta-image' />
+                    <img src={RestaurantFood} alt="Header image" className='cta-image' />
                 </div>
             </div>
         </section>
