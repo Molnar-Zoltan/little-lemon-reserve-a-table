@@ -1,5 +1,3 @@
-
-
 const reservationTimeData = [
     "17:00",
     "18:00",
@@ -10,3 +8,5 @@ const reservationTimeData = [
 ];
 
 export default reservationTimeData;
+
+// This array was created only for testing purposes. It's not being used anymore.

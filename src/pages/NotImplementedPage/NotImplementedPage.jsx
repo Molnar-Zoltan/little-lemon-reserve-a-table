@@ -1,7 +1,11 @@
 import { Link } from 'react-router-dom';
 import './NotImplementedPage.css';
+import useScrollToTop from '../../assets/hooks/useScrollToTop';
 
 const NotImplementedPage = ({headerHeight}) => {
+
+    useScrollToTop();
+
     return (
         <section className="not-implemented-page" style={{ minHeight: `calc(100vh - ${headerHeight}px)` }}>
             <h2>This page is not implemented.</h2>

@@ -4,6 +4,7 @@ import Homepage from "../../pages/Homepage/Homepage";
 import BookingPage from "../../pages/BookingPage/BookingPage";
 import NotFoundPage from "../../pages/NotFoundPage/NotFoundPage";
 import NotImplementedPage from '../../pages/NotImplementedPage/NotImplementedPage';
+import ConfirmedBooking from '../../pages/ConfirmedBookingPage/ConfirmedBookingPage';
 
 const Main = ({headerHeight}) => {
 
@@ -22,6 +23,7 @@ const Main = ({headerHeight}) => {
         <Routes>
             <Route path="/" element={<Homepage headerHeight={headerHeight} />} />
             <Route path="/reservations" element={<BookingPage  headerHeight={headerHeight} />} />
+            <Route path="/confirmed-booking" element={<ConfirmedBooking  headerHeight={headerHeight} />} />
             {
                 notImplementedPages.map((path) => (
                     <Route key={path} path={path} element={<NotImplementedPage headerHeight={headerHeight}/>} /> 
