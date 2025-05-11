@@ -27,4 +27,4 @@ const submitAPI = function(formData) {
 
 export { fetchAPI, submitAPI };
 
-// This API was provided by the course
+// This "API" was provided by the course

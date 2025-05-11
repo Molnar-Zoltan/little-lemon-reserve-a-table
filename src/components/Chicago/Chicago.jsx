@@ -18,10 +18,10 @@ const Chicago = () => {
                 </div>
                 <div className='chicago-image-container'>
                     <div className='crop-container-a'>
-                        <img className='chicago-image-a' src={MarioAdrianA} />
+                        <img className='chicago-image-a' src={MarioAdrianA} alt='Picture of Mario and Adrian' />
                     </div>
                     <div className='crop-container-b'>
-                        <img className='chicago-image-b' src={MarioAdrianB} />
+                        <img className='chicago-image-b' src={MarioAdrianB} alt='Picture of Mario and Adrian' />
                     </div>
 
                     

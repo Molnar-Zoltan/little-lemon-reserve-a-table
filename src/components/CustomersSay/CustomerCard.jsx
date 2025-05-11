@@ -20,7 +20,7 @@ const CustomerCard = ({ name, rating, text, image }) => {
             </div>
             <div className='customer-card-header'>
                 <div className='customer-image-container'>
-                    <img className='customer-image' src={image} />
+                    <img className='customer-image' src={image} alt={`Picture of ${name}`} />
                 </div>
                 <h4 className='customer-name'>{name}</h4>
             </div>
