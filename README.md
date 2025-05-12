@@ -14,3 +14,5 @@ Little Lemon is a fictional Mediterranean restaurant in Chicago, owned by two br
 - React Router
 - Formik
 - Yup
+- Vite
+- Vitest
