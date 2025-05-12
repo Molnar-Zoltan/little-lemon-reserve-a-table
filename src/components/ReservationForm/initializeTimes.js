@@ -1,6 +1,6 @@
 import { fetchAPI } from "../../utils/api";
 
-const initializeTimes = (state, date) => {
+const initializeTimes = () => {
     return fetchAPI(new Date());
 }
 
