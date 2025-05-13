@@ -1,4 +1,3 @@
-import React from "react";
 import './BookingPage.css'; 
 import ReservationForm from '../../components/ReservationForm/ReservationForm';
 import Restaurant from '../../assets/images/restaurant.jpg'
