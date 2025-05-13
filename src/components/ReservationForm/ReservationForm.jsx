@@ -8,12 +8,11 @@ import ReservationDate from './ReservationDate';
 import ReservationTime from './ReservationTime';
 import ReservationGuests from './ReservationGuests';
 import ReservationOccasion from './ReservationOccasion';
-import { useState, useEffect, useReducer } from 'react';
+import { useEffect, useReducer } from 'react';
 import initializeTimes from './initializeTimes';
 import updateTimes from './updateTimes';
 import submitForm from './submitForm';
 import { useNavigate } from 'react-router-dom';
-import { submitAPI } from '../../utils/api';
 
 
 const ReservationForm = () => {
