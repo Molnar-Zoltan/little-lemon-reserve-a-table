@@ -4,6 +4,10 @@ This project was created as part of the Meta Front-End Developer Professional Ce
 
 Little Lemon is a fictional Mediterranean restaurant in Chicago, owned by two brothers from Italy.
 
+**Preview:**
+- https://zoltanmolnar.eu/little-lemon-reserve-a-table/
+- https://molnar-zoltan.github.io/little-lemon-reserve-a-table/
+
 ## 📄 Available Pages:
 - 🏠 Home — Introduction to Little Lemon, restaurant details, and featured highlights (special offers, customer reviews).
 - 📅 Reservations — Table reservation form with form validation.
