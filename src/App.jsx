@@ -10,7 +10,7 @@ function App() {
   const [headerHeight, setHeaderHeight] = useState(0);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/little-lemon-reserve-a-table/">
       <Header setHeaderHeight={setHeaderHeight} />
       <Main headerHeight={headerHeight}/>
       <Footer /> 
