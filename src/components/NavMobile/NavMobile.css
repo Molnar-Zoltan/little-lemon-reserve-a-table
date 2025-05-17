@@ -11,11 +11,12 @@
         
         & li {
             
-            & span {
+            & .nav-item {
                 font-size: var(--font-size-2xl);
                 font-weight: var(--font-weight-bold);
                 color: var(--color-primary-one);
                 padding: 1rem 2rem;
+                margin: 0 0.5rem;
     
     
                 &:hover, &:active {
